@@ -1,0 +1,5 @@
+xrandr
+gtf 2560 1080 60
+xrandr --newmode "TEST"  230.76  2560 2728 3000 3440  1080 1081 1084 1118  -HSync +Vsync
+xrandr --addmode Virtual1 "TEST"
+xrandr --output Virtual1 --mode "TEST"
